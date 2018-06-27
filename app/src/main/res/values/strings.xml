@@ -1,4 +1,17 @@
 <resources>
     <string name="app_name">Ghost</string>
     <string name="db_name">Dreams</string>
+    <string name="dreams">Dreams</string>
+    <string name="tags">Tags</string>
+    <string name="search">Search</string>
+    <string name="empty_string">No dreams have been recorded yet. Please add some to keep track of them.</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string name="tag">Tag</string>
+    <string name="save">Save</string>
+    <string name="please_enter_date">Please enter a date</string>
+    <string name="please_enter_desc">Please enter a description</string>
+    <string name="please_enter_label">Please enter or create a tag</string>
+    <string name="home">Home</string>
+    <string name="add">Add</string>
 </resources>
