@@ -8,14 +8,21 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:name=".Ghost"
         android:theme="@style/BaseTheme">
-        <activity android:name=".ui.Home">
+        <activity
+            android:name=".ui.activity.Home"
+            android:title="Home">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".ui.activity.RecordDream"
+            android:title="Create Record"
+            android:launchMode="singleTop" />
     </application>
 
 </manifest>

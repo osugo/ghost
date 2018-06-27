@@ -3,6 +3,7 @@ package com.android.dreams
 import android.app.Application
 import io.realm.Realm
 import io.realm.RealmConfiguration
+import timber.log.Timber
 
 /**
  * Created by kombo on 27/06/2018.
@@ -16,6 +17,12 @@ class Ghost : Application() {
 
         Realm.init(this)
         Realm.setDefaultConfiguration(realmConfig)
+
+        //ensure we only log in debug mode
+        if(BuildConfig.DEBUG){
+            Timber.uprootAll()
+            Timber.plant(Timber.DebugTree())
+        }
     }
 
     companion object {

@@ -20,4 +20,9 @@
         <item name="color">@color/textColorPrimary</item>
     </style>
 
+    <style name="ThemeOverlay.AccentSecondary" parent="ThemeOverlay.AppCompat">
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="colorControlNormal">@color/textColorPrimary</item>
+    </style>
+
 </resources>
