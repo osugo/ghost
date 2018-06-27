@@ -1,7 +1,8 @@
-package com.android.dreams
+package com.android.dreams.ui
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.android.dreams.R
 
 class Home : AppCompatActivity() {
 

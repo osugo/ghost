@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Ghost</string>
     <string name="db_name">Dreams</string>
+    <string name="dreams">Dreams</string>
+    <string name="tags">Tags</string>
+    <string name="search">Search</string>
 </resources>
